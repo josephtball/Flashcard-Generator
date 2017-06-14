@@ -1,0 +1,28 @@
+{
+	"cards": [
+		{
+			"front": "Riot that killed 5 colonists.",
+			"back": "Boston Massacre"
+		},
+		{
+			"front": "A 1773 protest against British taxes in which Boston colonists disguised as Mohawks dumped valuable tea into Boston Harbor.",
+			"back": "boston tea party"
+		},
+		{
+			"front": "Heroine of the American Revolution who carried water to soldiers and took over her husband's gun when he was wounded, real name was Mary Ludwig Hays.",
+			"back": "Molly Pitcher"
+		},
+		{
+			"front": "1st President of the United States; commander-in-chief of the Continental Army during the American Revolution (1732-1799)",
+			"back": "George Washington"
+		},
+		{
+			"front": "Colonial militia members who were supposed to be ready to fight at a minute's notice",
+			"back": "Minute Men"
+		},
+		{
+			"front": "Agreement signed by British and American leaders that stated the United States of America was a free and independent contry",
+			"back": "Treaty of Paris"
+		}
+	]
+}
