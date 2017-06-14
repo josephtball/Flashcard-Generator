@@ -1,0 +1,28 @@
+{
+	"cards": [
+		{
+			"text": "The boston massacre was a riot that killed 5 colonists.",
+			"cloze": "boston massacre"
+		},
+		{
+			"text": "The boston tea party was a protest against British taxes in which Boston colonists disguised as Mohawks dumped valuable tea into Boston Harbor.",
+			"cloze": "boston tea party"
+		},
+		{
+			"text": "Molly Pitcher was a heroine of the American Revolution who carried water to soldiers and took over her husband's gun when he was wounded, her real name was Mary Ludwig Hays.",
+			"cloze": "Molly Pitcher"
+		},
+		{
+			"text": "George Washington was the 1st President of the United States and commander-in-chief of the Continental Army during the American Revolution.",
+			"cloze": "George Washington"
+		},
+		{
+			"text": "Minute Men were colonial militia members who were supposed to be ready to fight at a minute's notice.",
+			"cloze": "Minute Men"
+		},
+		{
+			"text": "The Treaty of Paris was an agreement signed by British and American leaders that stated the United States of America was a free and independent contry.",
+			"cloze": "Treaty of Paris"
+		}
+	]
+}

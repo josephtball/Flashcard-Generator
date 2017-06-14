@@ -1,5 +1,6 @@
 var cardsObj = require("./BasicCards.json");
 var CardConstructor = require("./BasicCardConstructor.js");
+var clozeCard = require("../ClozeCards/ClozeCardGame.js");
 var inquirer = require("inquirer");
 
 var cardsArr = cardsObj.cards;
@@ -26,17 +27,6 @@ var startGame = function() {
 	});
 }
 module.exports = startGame;
-
-function randomCard() {
-	if (cardsArr.length > 1) {
-		var random = Math.floor(Math.random()*(cardsArr.length-1));
-		cardsArr.splice(random, 1);
-		return random;
-	} else {
-		console.log("No flashcards left.");
-		roundEnd();
-	}
-}
 
 function playRound() {
 	console.log('~~~~~~~~~~ ########## ~~~~~~~~~~~');
@@ -85,13 +75,13 @@ function roundEnd() {
 			type: "list",
 			name: "end",
 			message: "What would you like to do next?",
-			choices: ["Play with Cloze Deletion Flashcard", "Quit Game"],
+			choices: ["Play with Cloze Deletion Flashcards", "Quit Game"],
 		}
 	]).then(function(answer) {
 		if (answer.end === "Quit Game") {
 			console.log("Thank's for playing!");
 		} else {
-			console.log("Cloze");
+			new clozeCard;
 		}
 	});
 }
